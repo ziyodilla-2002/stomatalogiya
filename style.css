@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --black: #262626;
+    --col-1: calc( 100% / 12 * 1);
+    --col-2: calc( 100% / 12 * 2);
+    --col-3: calc( 100% / 12 * 3);
+    --col-4: calc( 100% / 12 * 4);
+    --col-5: calc( 100% / 12 * 5);
+    --col-6: calc( 100% / 12 * 6);
+    --col-7: calc( 100% / 12 * 7);
+    --col-8: calc( 100% / 12 * 8);
+    --col-9: calc( 100% / 12 * 9);
+    --col-10: calc( 100% / 12 * 10);
+    --col-11: calc( 100% / 12 * 11);
+    --col-12: calc( 100% / 12 * 12);
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-1{
+    width: var(--col-1);
+    padding: 0 15px;
+}
+.col-2{
+    width: var(--col-2);
+    padding: 0 15px;
+}
+.col-3{
+    width: var(--col-3);
+    padding: 0 15px;
+}
+.col-4{
+    width: var(--col-4);
+    padding: 0 15px;
+}
+.col-5{
+    width: var(--col-5);
+    padding: 0 15px;
+}
+.col-6{
+    width: var(--col-6);
+    padding: 0 15px;
+}
+.col-7{
+    width: var(--col-7);
+    padding: 0 15px;
+}
+.col-8{
+    width: var(--col-8);
+    padding: 0 15px;
+}
+.col-9{
+    width: var(--col-9);
+    padding: 0 15px;
+}
+.col-10{
+    width: var(--col-10);
+    padding: 0 15px;
+}
+.col-11{
+    width: var(--col-11);
+    padding: 0 15px;
+}
+.col-12{
+    width: var(--col-12);
+    padding: 0 15px;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.align-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.header__bottom{
+    width: 100%;
+    display: flex;
+}
+.header__bottom__info{
+    width: calc(100% / 4);
+}
+.header__bottom__info:nth-child(1){
+    background: #43b1d2;
+}
+.header__bottom__info:nth-child(2){
+    background: #3fb6c6;
+}
+.header__bottom__info:nth-child(3){
+    background: #3cbbbb;
+}
+.header__bottom__info:nth-child(4){
+    background: #37c3a8;
+}
+
+.header__top{
+    padding-top: 34px;
+    
+   
+} 
+/* .header__logo a{
+    margin-bottom: 2px;
+
+}
+header__time{
+    justify-content:flex-end;
+} */
+.header__title{
+    background: url(./images/sssss_03.jpg);
+    height: 640px;
+}
+
+
+
+
+.header__top__menu ul {
+    display: flex;
+    justify-content: space-between;
+  
+}
+    /* flex-direction: column; */
+/* }
+/* .header__top__menu ul li a{
+    /* display: flex; */
+    .header__top__menu ul li a{  
+    color: #6c6c6c;
+    font-family: "ral-regular";
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    
+} 
+.header__top__menu ul li a:hover{
+    color: #ececec;
+}
+.header__top__menu ul li a:before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #ececec;
+    transition: 500ms;
+    margin: 30px 0 30px;
+}
+.header__top__menu ul li a span{
+
+    color: var(--black);
+/*  
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; */
+}
+.header__top__menu:hover a span{
+    display: block;
+    margin-left: 6px;
+}
+.header__top__menu ul li:hover a{
+    background: var(--black);
+    color: #ffffff;
+}
+.header__title{
+    padding-left: 50px;
+}
+.header__title button{
+    background: #1a9bdc;
+    border: 3px solid #1a9bdc;
+    padding: 17px 37px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "ral-regular";
+    border-radius: 30px;
+    margin-left: 127px;
+
+}
+.header__title button a{
+    color: #ffffff;
+}
+.header__title h1{
+    font-family: "ral-regular";
+    font-size: 48px;
+    margin-top: 180px;
+}
+.header__title h2{
+    margin-left: 40px;
+    font-family: "ral-regular";
+    font-size: 48px;
+    margin-bottom: 38px;
+}
+.header__title h5{
+    margin-left: 50px;
+    font-family: "ral-regular";
+    font-size: 17px;
+    margin-bottom: 18px;
+
+}
+.header__title h4{
+    
+    font-family: "ral-regular";
+    font-size: 17px;
+    margin: 0 0 42px 60px};
+
+/* header__top__menu ul li a:hover,
+.header__top__menu ul li a.active
+{
+    color: #262626; */
+/* } */
+
+.header__bottom__info{
+    margin: 74px 74px 60px;
+}
+/* .header__bottom__info h2{
+    margin: 175px 55px 25px 60px;
+    font-size: 29px; 
+} */
+.header__bottom__info p{
+    margin: 28px 45px 55px 50px;
+}
+
+
+/* .section__bottom{
+    background-image: url(./img/images/tak-tak_02.jpg);
+} */
+
+
+/* .main_firts button:hover {
+    background-color: #3F3F3F;
+} */
+
+/* .section_top {
+    display: flex;
+    margin-right: 290px;
+    
+}
+.section_every_body {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.section_every_body img {
+    margin-left: 80px;
+} */
+.header__bottom__info h2 {
+    font-family: open-bold;
+    color: white;
+    text-align: center;
+    font-size: 29px; 
+}
+.header__bottom__info p {
+    font-size: 16px;
+    font-family: open-regular;
+    color: white;
+    width: 240px;
+    height: 55px;
+   text-align: center;
+}
+main__top {
+    margin-top: 80px;
+}
+.main__top__info {
+    text-align: center;
+    
+    
+}
+.main__top__info__p h1 {
+    font-size: 45px;
+    font-family: open-bold;
+    color: #494949;
+    padding-top: 114px;
+    margin-bottom:  40px;
+    text-align: center;
+
+}
+.main__top__info__p p {
+    font-family: open-regular;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+.main__top__prof h2{
+    text-align: center;
+    margin: 120px 0px 45px;
+    font-size: 30px;
+    font-family: open-medium;    
+}
+.main__top__prof p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: open-medium;
+}
+/* .aside_starts img {
+    padding-bottom: 40px;
+} */
+.main__bottom{
+    height: 592px;
+     background-image: url(./img/klas.jpg);
+     text-align: center;
+ }
+.main__bottom p {
+    font-size: 60px;
+    font-family: open-medium;    
+    color: white;
+    margin-top: 280px;
+   
+    
+}
+.main__bottom p:after{
+    content: " ";
+    display: block;
+    
+    height: 2px;
+    background: #ececec;
+    transition: 500ms;
+    margin: 25px 35px;
+}
+
+
+.main__bottom span {
+    color: white;
+    font-size: 25px;
+    font-family: open-medium;    
+}
+/* article {
+    background: url(./images/maket-saita-dlya-stomatologii_02.png) no-repeat center center /cover;
+    
+} */
+section {
+    
+    justify-content: space-between;
+    
+}
+.section__top h1 {
+    font-family: open-bold;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.section__top p {
+    font-family: open-medium;
+    font-size: 16px;
+    margin: 30px 0 55px;
+}
+.section__top button {
+    background: #1a9bdc;
+    border: 3px solid #1a9bdc;
+    padding: 17px 37px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "ral-regular";
+    border-radius: 30px;
+   margin: 54px 0 100px;
+text-align: center;
+}
+.section__top__info img{
+    height: 210px;
+    width: 100%;
+}
+.section__top__info h2{
+    margin: 35px 0 14px;
+}
+
+.section__top__create h2{
+    font-family: open-bold;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.section__bottom{
+    background: url(./img/images/tak-tak_02.jpg);
+}
+.section__bottom h1{
+    margin: 95px 0 38px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+}
+.section__bottom p{
+    margin-bottom: 54px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+.section__bottom img{
+    height: 208px;
+    width: 344px;
+    margin-bottom: 94px;
+}
+ 
+/* .article_end {
+    display: flex;
+    padding-top: 25px;
+} */
+.article__top {
+margin-top: 150px;
+}
+.article__top__team {
+    text-align: center;
+}
+.article__top__team h1 {
+    font-family: open-bold;
+    color: #494949;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.article__top__team p {
+    font-size: 16px;
+    font-family: open-regular;
+ 
+}
+/* .hgroup_end {
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+} */
+.article__top__info{
+    text-align: center;
+}
+.article__top__info h2 {
+    font-size: 25px;
+    font-family: open-medium;
+    color: #6F6F6E;
+    padding-top: 35px;
+}
+.article__top__info p {
+    color: #6F6F6E;
+    font-family: open-medium;
+    font-size: 18px;
+    padding-top: 25px;
+    
+}
+.article__top__info img {
+    padding-top: 35px;
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    
+}
+.article__button {
+    background-color: #E2E2E2;
+    height: 180px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.article__button h2 {
+    font-family: open-bold;
+    color: #494949;
+    font-size: 30px;   
+    
+    margin-top: 80px;
+}
+.article__button button {
+    
+    background: #1a9bdc;
+    border: 3px solid #1a9bdc;
+    padding: 17px 37px;
+    text-transform: uppercase;
+    font-family: "ral-regular";
+    border-radius: 60px;
+    margin-top: 68px;
+    font-size: 21px;
+    transition: 400ms;
+    
+
+}
+.article__button button a{
+    
+    color: white;
+   
+}
+
+footer {
+    background-color: #171717;
+    height: 625px;
+}
+.footer_son {
+    margin-top: 100px;
+    display: flex;
+}
+
+
+.footer_never {
+    display: flex;
+    gap: 130px;
+    
+}
+.footer_never h1 {
+    color: white;
+    font-family: open-medium;
+    font-size: 28px;
+}
+.footer_brother {
+    margin-top: 72px;
+    text-align: center;
+}
+
